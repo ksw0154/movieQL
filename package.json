@@ -4,8 +4,15 @@
   "description": "Movie API with GraphQL",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "g": "^2.0.1",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.15"
+  },
+  "type": "module"
 }
